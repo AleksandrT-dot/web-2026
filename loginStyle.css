@@ -1,24 +1,24 @@
-.image1 {
+.user__image {
     width: 462px;
     height: 501px;
     margin-top: 289px;
     margin-left: 269px;
 }
-.image2 {
+.auth__icon {
     width: 22px;
+    display: flex;
+    margin-left: 310px;
+    cursor: pointer;
+}
+.auth__icon--eye {
     height: 16px;
     margin-top: -31px;
-    margin-left: 310px;
-    display: flex;
 }
-.image3 {
-    width: 22px;
+.auth__icon--slash {
     height: 22px;
     margin-top: -19px;
-    margin-left: 310px;
-    display: flex;
 }
-.blockautorization {
+.auth {
     width: 343px;
     height: 251px;
     margin-top: -375px;
@@ -29,7 +29,7 @@
     gap: 32px;
 }
 
-button {
+.auth__button {
     background-color: #222222;
     color: #FFFFFF;
     width: 343px;
@@ -40,7 +40,7 @@ button {
     cursor: pointer;
 
 }
-.textinbutton {
+.auth__button-text {
     font-family: 'Golos Text';
     font-weight: 500;
     font-size: 16px;
@@ -50,26 +50,20 @@ button {
     height: 19px;
 }
 
-.loginandpassword {
+.auth__fields {
     width: 343px;
     height: 171px;
     display: flex;
     flex-direction: column;
     gap: 16px;  
 }
-.login {
+.auth__field {
     width: 343px;
     height: 88px;
     gap: 5px;
 }
 
-.password {
-    width: 343px;
-    height: 67px;
-    gap: 5px;
-}
-
-lable {
+.auth__label {
     width: 343px;
     height: 18px;
     font-family: 'Golos Text';
@@ -84,44 +78,29 @@ lable {
     padding: 0;
     box-sizing: border-box;
 }
-
-.input-field1 {
+.auth__input {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 343px;
     min-height: 44px;
-    height: auto;
     border-radius: 10px;
+    background-color: #F2F3F5;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Golos Text';
+    font-size: 15px;
+    color: #222222;
+}
+
+.auth__input--email {
     padding: 13px 12px;
-    background-color: #F2F3F5;
-    border: none;
-    outline: none;
-    box-sizing: border-box;
-    font-family: 'Golos Text', sans-serif;
-    font-size: 15px;
-    color: #222222;
 }
 
-.input-field2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 343px;
-    min-height: 44px;
-    height: auto;
-    border-radius: 10px;
+.auth__input--password {
     padding: 10px 12px;
-    background-color: #F2F3F5;
-    border: none;
-    outline: none;
-    box-sizing: border-box;
-    font-family: 'Golos Text', sans-serif;
-    font-size: 15px;
-    color: #222222;
 }
 
-.presc {
+.auth__hint {
     width: 343px;
     height: 16px;
     font-family: 'Golos Text';
@@ -135,7 +114,7 @@ lable {
     box-sizing: border-box;
 }
 
-.enter {
+.page__title {
     width: 385px;
     height: 180px;
     margin-top: -520px;
@@ -147,6 +126,7 @@ lable {
     letter-spacing: -1.5px;
     color: #222222;
     box-sizing: border-box;
+    display: flex;
 }
 
 body {

@@ -9,32 +9,31 @@
     <link href= "loginStyle.css" rel = "stylesheet">
 </head>
 <body>
-    <img src = "Frame45.png" alt="Photo of a simple man" class = "image1">
-        <div class = "blockautorization">
-        <div class = "loginandpassword">
-            <div class = "login">
+    <img src = "Frame45.png" alt="Photo of a simple man" class = "user__image">
+        <div class = "auth">
+        <div class = "auth__fields">
+            <div class = "auth__field">
 
-                <lable>Электропочта</lable>
-                <input type="text" class="input-field1">
-                <p class = "presc">Введите электропочту в формате *****@***.**</p>
+                <label class="auth__label">Электропочта</label>
+                <input type="text" class="auth__input auth__input--email">
+                <p class = "auth__hint">Введите электропочту в формате *****@***.**</p>
 
             </div>
-            <div class = "password">
-
-                <lable>Пароль</lable>
-                <input type="text" class="input-field2">
-                <img src = "Vector.png" alt="V" class = "image2">
-                <img src = "Vector1.png" alt="V" class = "image3">
-                <p class = "presc"></p>
-
+            <div class = "auth__field">
+                <label class="auth__label">Пароль</label>
+                <input type="text" class="auth__input auth__input--password">
+                <div class = "auth__vision">
+                    <img src = "Vector.png" alt="Vision" class = "auth__icon auth__icon--eye">
+                    <img src = "Vector1.png" alt="Vision" class = "auth__icon auth__icon--slash">
+                </div>
             </div>
         </div>
-        <button>
-            <span class ="textinbutton">Продолжить</span>
+        <button class="auth__button">
+            <span class ="auth__button-text">Продолжить</span>
         </button>
     </div>
-    <p class = "enter">Войти</p>
 
+    <h1 class = "page__title">Войти</h1>
 
 </body>
 </html>
