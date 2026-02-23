@@ -1,0 +1,190 @@
+.sidebar {
+    width: 72px;
+    height: 1080px;
+    left: -1px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #2222220D;
+}
+
+.sidebar__item-frame {
+    width: 40px;
+    height: 40px;
+    left: 18px;
+    border-radius: 10px;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sidebar__item-frame_menu {
+    top: 40px;
+    left: 11px;
+}
+
+.sidebar__item-frame_user {
+    top: 75px;  
+}
+
+.sidebar__item-frame_plus {
+    top: 98px;  
+}
+
+.net-feed {
+    width: 474px;
+    height: 1338px;
+    margin-top: -1220px;
+    margin-left: 482px;
+}
+
+.net-feed__post {
+    height: 474px;
+    margin-top: 250px; 
+}
+
+.net-feed__post-up {
+    width: 700px;
+}
+
+.net-feed__post-down {
+    width: 638px;
+}
+
+.net-feed__posted-photo {
+    width: 474px;
+    height: 474px;
+    top: 64px;    
+}
+
+.net-feed__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;    
+}
+
+.net-feed__reaction {
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 7px;
+    left: 8px;   
+}
+
+.net-feed__posting-user {
+    width: 474px;
+    height: 32px;
+    position: relative;
+    top: -15px;    
+}
+
+.net-feed__user {
+    width: 132px;
+    height: 32px;
+    gap: 10px;    
+}
+
+.net-feed__name {
+    width: 120px;
+    height: 18px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    position: relative;
+    top: -42px;
+    left: 45px;    
+}
+
+.net-feed__item-edit {
+    position: relative;
+    top: -27px;
+    left: 452px;
+    cursor: pointer;    
+}
+
+.net-feed__count-reaction {
+    width: 68px;
+    height: 30px;
+    background-color:#2222220D;
+    gap: 3px;
+    border-radius: 8px;
+    position: relative;
+    top: 10px;
+    cursor: pointer;   
+}
+
+.net-feed__count {
+    position: relative;
+    top: -30px;
+    left: 30px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+
+}
+
+.net-feed__user-text {
+    width: 474px;
+    height: 37px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    position: relative;
+    top: 8px;    
+}
+
+.net-feed__more {
+    width: 28px;
+    height: 18px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    position: relative;
+    top: 10px;
+    color: #808080;
+    cursor: pointer;    
+}
+
+.net-feed__time {
+    width: 100px;
+    height: 18px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    top: 10px;
+    color: #22222280;    
+}
+
+.net-feed__item {
+    width: 20px;
+    height: 20px;
+}
+
+.net-feed__item_active {
+    position: relative;
+    top: -220px;
+    left: -35px;
+    cursor: pointer;
+}
+
+.net-feed__item_unactive {
+    position: relative;
+    top: -220px;
+    left: -490px;
+    cursor: pointer;
+}
+
+.net-feed__item-num-page {
+    position: relative;
+    top: -440px;
+    left: -105px;   
+}

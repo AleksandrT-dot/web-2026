@@ -10,7 +10,55 @@
     <meta charset="UTF-8">
 </head>
 <body>
-    <div class = "sidebar"></div>
-    <div class = "net-feed"></div>
+    <div class = "sidebar">
+        <div class = "sidebar__item-frame sidebar__item-frame_menu">
+            <img src = "item_menu.png" alt="menu" class = "sidebar__item">
+        </div>
+        <div class = "sidebar__item-frame sidebar__item-frame_user">
+            <img src = "item_user.png" alt="user" class = "sidebar__item">
+        </div>
+        <div class = "sidebar__item-frame sidebar__item-frame_plus">
+         <img src = "item_plus.png" alt="add" class = "sidebar__item">
+        </div>
+    </div>
+    <div class = "net-feed">
+        <div class = "net-feed__post net-feed__post-up">
+            <div class ="net-feed__posting-user">
+                <div class = "net-feed__user">
+                    <img src = "avatar_ivan.jpg" alt="unknown avatar" class = "net-feed__avatar">
+                    <p class = "net-feed__name">Ваня Денисов</p>
+                </div>
+                <img src = "item_edit.png" alt="edit" class = "net-feed__item-edit">
+            </div>
+            <div class = "net-feed__navigation-photo">
+                <img src = "photo_ivan.jpg" alt="photo ivan" class = "net-feed__posted-photo">
+                <img src = "slider_active.png" alt="next" class = "net-feed__item net-feed__item_active">
+                <img src = "slider_unactive.png" alt="prev" class = "net-feed__item net-feed__item_unactive">
+                <img src = "item_num_page.png" alt="first" class = "net-feed__item-num-page">
+            </div>
+            <div class = "net-feed__count-reaction">
+                <img src = "reaction_like.png" alt="like" class = "net-feed__reaction">
+                <p class = "net-feed__count">203</p>    
+            </div>
+            <p class = "net-feed__user-text">Так красиво сегодня на улице! Настоящая зима)) Вспоминается Бродский: «Поздно ночью, в уснувшей долине, на самом дне, в гор...» </p>
+            <p class = "net-feed__more">ещё</p>
+            <p class = "net-feed__time">2 часа назад</p>
+        </div>
+
+        <div class = "net-feed__post net-feed__post-down">
+            <div class ="net-feed__posting-user">
+                <div class = "net-feed__user">
+                    <img src = "avatar_liza.jpg" alt="unknown avatar" class = "net-feed__avatar">
+                    <p class = "net-feed__name">Лиза Дёмина</p>
+                </div>
+            </div>
+            <img src = "photo_liza.jpg" alt="photo ivan" class = "net-feed__posted-photo">
+            <div class = "net-feed__count-reaction">
+                <img src = "reaction_like.png" alt="like" class = "net-feed__reaction">
+                <p class = "net-feed__count">534</p>    
+            </div>
+            <p class = "net-feed__time">1 день назад</p>
+        </div>
+    </div>
 </body>
 </html>
