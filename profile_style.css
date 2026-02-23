@@ -1,0 +1,125 @@
+.sidebar {
+    width: 72px;
+    height: 1080px;
+    left: -1px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #2222220D;
+}
+
+.sidebar__item-frame {
+    width: 40px;
+    height: 40px;
+    left: 18px;
+    border-radius: 10px;
+    gap: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.sidebar__item-frame_menu {
+    top: 40px;
+    left: 11px;
+}
+
+.sidebar__item-frame_user {
+    top: 75px;  
+}
+
+.sidebar__item-frame_plus {
+    top: 98px;  
+}
+
+.head__avatar {
+    width: 123px;
+    height: 123px;
+    border-radius: 16px;
+    position: relative;
+    top: -970px;
+    left: 650px;        
+}
+
+.photo-block__photo {
+Width: 322.35px;
+Height: 322.35px;
+}
+
+.head__name {
+    width: 361px;
+    height: 32px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: -0.25px;
+    top: -990px;
+    left: 533px;
+    color: #222222;
+    position: relative;
+    text-align: center;   
+}
+
+.head__prescription {
+    width: 361px;
+    height: 36px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    top: -1010px;
+    left: 533px;
+    color: #222222;
+    position: relative;
+    text-align: center;
+}
+
+.head__count-posts {
+    width: 101px;
+    height: 30px;   
+    border-radius: 6px;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    padding-right: 10px;
+    padding-top: 4px;
+    gap: 6px;
+    background-color: #F2F3F5;
+    top: -1010px;
+    left: 650px;
+    cursor: pointer;
+}
+
+.head__item {
+    width: 16px;
+    height: 16px;   
+    position: relative;
+    top: 7px;
+    left: 5px;    
+}
+
+.head__count {
+    width: 80px;
+    height: 18px;
+    font-family: 'Golos Text', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    top: -29px;
+    left: 22px;
+    color: #222222;
+    position: relative;
+    text-align: center;    
+}
+
+.photo-block {
+    width: 1000px;
+    height: 1621.65px;
+    top: -950px;
+    left: 220px;
+    position: relative;    
+}
+
+body {
+    height: 2050px;    
+}
