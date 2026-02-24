@@ -1,7 +1,6 @@
 .sidebar {
     width: 72px;
     height: 1080px;
-    left: -1px;
     background-color: #FFFFFF;
     border-right: 1px solid #2222220D;
 }
@@ -9,38 +8,34 @@
 .sidebar__item-frame {
     width: 40px;
     height: 40px;
-    left: 18px;
     border-radius: 10px;
-    gap: 10px;
-    position: relative;
     cursor: pointer;
+    margin-left: 16px;
 }
 
 .sidebar__item-frame_menu {
-    top: 40px;
-    left: 11px;
+    margin-top: 40px;
 }
 
 .sidebar__item-frame_user {
-    top: 75px;  
+    margin-top: 23px;
 }
 
 .sidebar__item-frame_plus {
-    top: 98px;  
+    margin-top: 23px;
+}
+
+.head {
+    width: 500px;
+    margin-left: 200px;
+    margin-top: 40px;
 }
 
 .head__avatar {
     width: 123px;
     height: 123px;
     border-radius: 16px;
-    position: relative;
-    top: -970px;
-    left: 650px;        
-}
-
-.photo-block__photo {
-Width: 322.35px;
-Height: 322.35px;
+    margin: 0 auto;
 }
 
 .head__name {
@@ -51,11 +46,9 @@ Height: 322.35px;
     font-size: 32px;
     line-height: 32px;
     letter-spacing: -0.25px;
-    top: -990px;
-    left: 533px;
     color: #222222;
-    position: relative;
-    text-align: center;   
+    text-align: center;
+    margin: 16px auto 8px auto;
 }
 
 .head__prescription {
@@ -66,35 +59,25 @@ Height: 322.35px;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: -0.15px;
-    top: -1010px;
-    left: 533px;
     color: #222222;
-    position: relative;
     text-align: center;
+    margin: 0 auto 16px auto;
 }
 
 .head__count-posts {
     width: 101px;
-    height: 30px;   
+    height: 30px;
     border-radius: 6px;
-    position: relative;
-    padding-left: 10px;
-    padding-bottom: 4px;
-    padding-right: 10px;
-    padding-top: 4px;
-    gap: 6px;
     background-color: #F2F3F5;
-    top: -1010px;
-    left: 650px;
     cursor: pointer;
+    margin: 0 auto;
+    padding: 4px 10px;
 }
 
 .head__item {
     width: 16px;
-    height: 16px;   
-    position: relative;
-    top: 7px;
-    left: 5px;    
+    height: 16px;
+    margin-top: 3px;
 }
 
 .head__count {
@@ -105,21 +88,24 @@ Height: 322.35px;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: -0.15px;
-    top: -29px;
-    left: 22px;
     color: #222222;
-    position: relative;
-    text-align: center;    
+    text-align: center;
+    margin-left: 6px;
 }
 
 .photo-block {
     width: 1000px;
-    height: 1621.65px;
-    top: -950px;
-    left: 220px;
-    position: relative;    
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.photo-block__photo {
+    width: 322.35px;
+    height: 322.35px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 body {
-    height: 2050px;    
+    height: 2050px;
 }
