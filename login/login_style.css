@@ -1,0 +1,124 @@
+.welcome__user-image {
+    width: 462px;
+    height: 501px;
+    margin: 150px 0 0 275px;
+}
+
+.welcome__title {
+    width: 385px;
+    height: 180px;
+    margin: -610px 0 0 179px;
+    font-family: 'Golos Text', sans-serif;
+    font: 700;
+    font-size: 140px;
+    line-height: 180px;
+    letter-spacing: -1.5px;
+    color: #222222;
+}
+
+.auth__icon {
+    width: 22px;
+    cursor: pointer;
+    display: grid;
+}
+
+.auth__icon-eye {
+    height: 16px;
+    margin: -30px 0 0 305px;
+}
+
+.auth__icon-slash {
+    height: 22px;
+    margin: -20px 0 0 305px;
+}
+
+.auth {
+    width: 343px;
+    height: 251px;
+    margin: 55px 0 32px 838px;
+    gap: 32px;
+}
+
+.auth__button {
+    background-color: #222222;
+    color: #FFFFFF;
+    width: 343px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 0 16px;
+    margin: 5px 0 0 838px;
+    cursor: pointer;
+}
+
+.auth__button-text {
+    font-family: 'Golos Text', sans-serif;
+    font: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+    width: 93px;
+    height: 19px;
+}
+
+.auth__fields {
+    width: 343px;
+    height: 171px;
+    gap: 16px;  
+}
+
+.auth__field {
+    width: 343px;
+    height: 88px;
+    gap: 5px;
+    margin: -180px 0 10px 838px;
+}
+
+.auth__label {
+    width: 343px;
+    height: 18px;
+    font-family: 'Golos Text', sans-serif;
+    font: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #222222;
+    margin: 0;
+    padding: 0;
+}
+
+.auth__input {
+    width: 343px;
+    min-height: 44px;
+    border-radius: 10px;
+    background-color: #F2F3F5;
+    box-sizing: border-box;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 15px;
+    color: #222222;
+    border: none;
+}
+
+.auth__input-email {
+    padding: 13px 12px;
+}
+
+.auth__input-password {
+    padding: 10px 12px;
+}
+
+.auth__hint {
+    width: 343px;
+    height: 16px;
+    font-family: 'Golos Text', sans-serif;
+    font: 400;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: -0.08px;
+    color: #808080;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 1000px;
+}

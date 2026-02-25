@@ -1,0 +1,157 @@
+.sidebar {
+    width: 72px;
+    height: 1080px;
+    background-color: #FFFFFF;
+    border-right: 1px solid #2222220D;
+    box-sizing: border-box;
+    float: left;
+}
+
+.sidebar__item-frame {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 24px 0 0 17px;
+}
+
+.sidebar__item-frame-menu {
+    margin: 24px 0 0 9px;
+}
+
+.sidebar__item-frame-user {
+    margin: 32px 0 0 17px;
+}
+
+.net-feed {
+    width: 474px;
+    margin: 40px 0 0 400px;
+    display: inline-block;
+}
+
+.net-feed__post {
+    width: 474px;
+    margin: 0 0 10px 0;
+}
+
+.net-feed__posting-user {
+    width: 474px;
+    margin: 0 0 8px 0;
+    overflow: hidden;
+}
+
+.net-feed__user {
+    float: left;
+    width: auto;
+}
+
+.net-feed__avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    cursor: pointer;
+    float: left;
+    margin: 30px 0 0 0;
+}
+
+.net-feed__name {
+    font-family: 'Golos Text', sans-serif;
+    font: 500;
+    font-size: 14px;
+    line-height: 32px;
+    letter-spacing: -0.15px;
+    margin: 30px 0 10px 42px;
+}
+
+.net-feed__item-edit {
+    float: right;
+    margin: 40px 0 0 0;
+    cursor: pointer;
+}
+
+.net-feed__posted-photo {
+    width: 474px;
+    height: 474px;
+    display: block;
+    margin: -10px 0 0 0;   
+}
+
+.net-feed__item_active {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin: -245px 0 0 446px;
+}
+
+.net-feed__item_unactive {
+    width: 20px;
+    height: 20px;
+    margin: -245px 0 0 8px;
+    cursor: pointer;
+}
+
+.net-feed__item-num-page {
+    margin: -460px 0 0 410px;
+}
+
+.net-feed__count-reaction {
+    width: 68px;
+    height: 30px;
+    background-color: #2222220D;
+    border-radius: 8px;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.net-feed__reaction {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin: 7px 0 0 8px;
+}
+
+.net-feed__count {
+    font-family: 'Golos Text', sans-serif;
+    font: 400;
+    font-size: 15px;
+    line-height: 2px;
+    letter-spacing: -0.15px;
+    margin: 14px 0 0 30px;
+}
+
+.net-feed__user-text {
+    width: 474px;
+    font-family: 'Golos Text', sans-serif;
+    font: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    margin: 8px 0 0 0;
+}
+
+.net-feed__more {
+    font-family: 'Golos Text', sans-serif;
+    font: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #808080;
+    cursor: pointer;
+    margin: 2px 0 0 0;
+    display: inline-block;
+}
+
+.net-feed__time {
+    font-family: 'Golos Text', sans-serif;
+    font: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    color: #22222280;
+    margin: 5px 0 0 0;
+}
+
+.net-feed__navigation-photo {
+    display: grid;   
+}

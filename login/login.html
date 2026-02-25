@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&dis
+    play=swap" rel="stylesheet">
+    <link href="login_style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <form class="welcome">
+        <img class="welcome__user-image" src="photo_man.png" alt="Photo of a simple man">
+        <h1 class="welcome__title">Войти</h1>
+    </form>
+    <form class="auth">
+        <form class="auth__fields">
+            <form class="auth__field">
+                <label class="auth__label">Электропочта</label>
+                <input class="auth__input auth__input-email" type="text">
+                <p class="auth__hint">Введите электропочту в формате *****@***.**</p>
+            </form>
+            <form class="auth__field">
+                <label class="auth__label">Пароль</label>
+                <input  class="auth__input auth__input-password" type="text">
+                <form class="auth__vision">
+                    <img  class="auth__icon auth__icon-eye" src="eye_vector.png" alt="Vision">
+                    <img  class="auth__icon auth__icon-slash" src="slash_vector.png" alt="Vision">
+                </form>
+            </form>
+        </form>
+        <button class="auth__button">
+            <span class="auth__button-text">Продолжить</span>
+        </button>
+    </form>
+</body>
+</html>
