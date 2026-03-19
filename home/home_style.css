@@ -25,7 +25,7 @@
 
 .net-feed {
     width: 474px;
-    margin: 40px 0 0 480px;
+    margin: 40px 0 0 450px;
     display: inline-block;
 }
 
@@ -105,10 +105,12 @@
 }
 
 .net-feed__reaction {
-    width: 16px;
-    height: 16px;
+    width: 30px;
+    height: 20px;
     float: left;
-    margin: 7px 0 0 8px;
+    margin: 3px 2px 0 0;
+    border: none;
+    cursor: pointer;
 }
 
 .net-feed__count {
