@@ -1,37 +1,7 @@
-.sidebar {
-    width: 72px;
-    height: 1080px;
-    background-color: #FFFFFF;
-    border-right: 1px solid #2222220D;
-    box-sizing: border-box;
-    float: left;
-}
-
-.sidebar__item-frame {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin: 24px 0 0 17px;
-}
-
-.sidebar__item-frame-menu {
-    margin: 24px 0 0 9px;
-}
-
-.sidebar__item-frame-user {
-    margin: 32px 0 0 17px;
-}
-
 .net-feed {
     width: 474px;
-    margin: 40px 0 0 450px;
+    margin: 10px 0 0 522px;
     display: inline-block;
-}
-
-.net-feed__post {
-    width: 474px;
-    margin: 0 0 10px 0;
 }
 
 .net-feed__posting-user {
@@ -161,4 +131,13 @@
 .net-feed__post-link {
     text-decoration: none;
     color: inherit;
+}
+
+.post-num {
+    font-family: 'Golos Text', sans-serif;
+    font: 400;
+    font-size: 26px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    margin: 20px 0 0 700px;   
 }
