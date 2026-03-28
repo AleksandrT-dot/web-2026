@@ -1,101 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Golos Text', sans-serif;
+    display: flex;
+}
+
+.welcome {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 0 200px;
+}
+
 .welcome__user-image {
     width: 462px;
     height: 501px;
-    margin: 150px 0 0 275px;
 }
 
 .welcome__title {
-    width: 385px;
-    height: 180px;
-    margin: -610px 0 0 179px;
-    font-family: 'Golos Text', sans-serif;
-    font: 700;
+    font-weight: 700;
     font-size: 140px;
     line-height: 180px;
     letter-spacing: -1.5px;
     color: #222222;
-}
-
-.auth__icon {
-    width: 22px;
-    cursor: pointer;
-    display: grid;
-}
-
-.auth__icon-eye {
-    height: 16px;
-    margin: -30px 0 0 305px;
-}
-
-.auth__icon-slash {
-    height: 22px;
-    margin: -20px 0 0 305px;
+    margin: 0 240px 535px 0;
+    position: absolute;
 }
 
 .auth {
-    width: 343px;
-    height: 251px;
-    margin: 55px 0 32px 838px;
-    gap: 32px;
-}
-
-.auth__button {
-    background-color: #222222;
-    color: #FFFFFF;
-    width: 343px;
-    height: 48px;
-    border-radius: 10px;
-    padding: 0 16px;
-    margin: 5px 0 0 838px;
-    cursor: pointer;
-}
-
-.auth__button-text {
-    font-family: 'Golos Text', sans-serif;
-    font: 500;
-    font-size: 16px;
-    line-height: 100%;
-    letter-spacing: 0;
-    width: 93px;
-    height: 19px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 40px;
 }
 
 .auth__fields {
     width: 343px;
-    height: 171px;
-    gap: 16px;  
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 32px;
 }
 
 .auth__field {
-    width: 343px;
-    height: 88px;
+    display: flex;
+    flex-direction: column;
     gap: 5px;
-    margin: -180px 0 10px 838px;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
 }
 
 .auth__label {
-    width: 343px;
-    height: 18px;
-    font-family: 'Golos Text', sans-serif;
-    font: 400;
+    font-weight: 400;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: -0.15px;
     color: #222222;
-    margin: 0;
-    padding: 0;
+}
+
+.auth__password-wrapper {
+    position: relative;
 }
 
 .auth__input {
-    width: 343px;
+    width: 100%;
     min-height: 44px;
     border-radius: 10px;
     background-color: #F2F3F5;
-    box-sizing: border-box;
+    border: none;
     font-family: 'Golos Text', sans-serif;
     font-size: 15px;
     color: #222222;
-    border: none;
 }
 
 .auth__input-email {
@@ -103,22 +88,54 @@
 }
 
 .auth__input-password {
-    padding: 10px 12px;
+    padding: 13px 12px;
+    padding-right: 45px;
+}
+
+.auth__vision {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    margin-top: -11px;
+    cursor: pointer;
+}
+
+.auth__icon {
+    width: 22px;
+    display: block;
+}
+
+.auth__icon-eye {
+    height: 16px;
+}
+
+.auth__icon-slash {
+    height: 22px;
+    margin-top: -19px;
 }
 
 .auth__hint {
-    width: 343px;
-    height: 16px;
-    font-family: 'Golos Text', sans-serif;
-    font: 400;
+    font-weight: 400;
     font-size: 13px;
     line-height: 16px;
     letter-spacing: -0.08px;
     color: #808080;
-    margin: 0;
-    padding: 0;
 }
 
-body {
-    height: 1000px;
+.auth__button {
+    width: 343px;
+    height: 48px;
+    background-color: #222222;
+    border-radius: 10px;
+    padding: 0 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.auth__button-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #FFFFFF;
 }

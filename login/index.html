@@ -3,18 +3,17 @@
 <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&dis
-    play=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link href="login_style.css" rel="stylesheet">
     <meta charset="UTF-8">
 </head>
 <body>
-    <form class="welcome">
-        <img class="welcome__user-image" src="images\photo_man.png" alt="Photo of a simple man">
+    <div class="welcome">
         <h1 class="welcome__title">Войти</h1>
-    </form>
-    <form class="auth">
-        <form class="auth__fields">
+        <img class="welcome__user-image" src="images/photo_man.png" alt="Photo of a simple man">
+    </div>
+    <div class="auth">
+        <div class="auth__fields">
             <form class="auth__field">
                 <label class="auth__label">Электропочта</label>
                 <input class="auth__input auth__input-email" type="text">
@@ -22,16 +21,18 @@
             </form>
             <form class="auth__field">
                 <label class="auth__label">Пароль</label>
-                <input  class="auth__input auth__input-password" type="text">
-                <form class="auth__vision">
-                    <img  class="auth__icon auth__icon-eye" src="images\eye_vector.png" alt="Vision">
-                    <img  class="auth__icon auth__icon-slash" src="images\slash_vector.png" alt="Vision">
-                </form>
+                <div class="auth__password-wrapper">
+                    <input class="auth__input auth__input-password" type="text">
+                    <div class="auth__vision">
+                        <img class="auth__icon auth__icon-eye" src="images/eye_vector.png" alt="Vision">
+                        <img class="auth__icon auth__icon-slash" src="images/slash_vector.png" alt="Vision">
+                    </div>
+                </div>
             </form>
-        </form>
+        </div>
         <button class="auth__button">
             <span class="auth__button-text">Продолжить</span>
         </button>
-    </form>
+    </div>
 </body>
 </html>
