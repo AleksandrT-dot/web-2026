@@ -35,19 +35,21 @@ $user_photos = [
 </head>
 <body>
     <?php include 'sidebar.php'; ?>
-    <form class="avatar-info">
-        <img class="avatar-info__avatar" src="images\<?= $user['avatar'] ?>" alt="avatar пользователя">
-        <p class="avatar-info__name"><?= $user['name'] ?></p>
-        <p class="avatar-info__prescription"><?= $user['bio'] ?></p>
-        <div class="avatar-info__count-posts">
-            <img class="avatar-info__item" src="images\item_image.png" alt="posts">
-            <p class="avatar-info__count"><?= $user['posts_count'] ?> постов</p>   
-        </div>
-    </form>
-    <form class="photo-grid">
-        <?php foreach ($user_photos as $photo): ?>
-            <img class="photo-grid__photo" src="images\<?= $photo ?>" alt="фото пользователя">
-        <?php endforeach; ?>
-    </form>
+    <div class="main-content">
+        <form class="avatar-info">
+            <img class="avatar-info__avatar" src="images\<?= $user['avatar'] ?>" alt="avatar пользователя">
+            <p class="avatar-info__name"><?= $user['name'] ?></p>
+            <p class="avatar-info__prescription"><?= $user['bio'] ?></p>
+            <div class="avatar-info__count-posts">
+                <img class="avatar-info__item" src="images\item_image.png" alt="posts">
+                <p class="avatar-info__count"><?= $user['posts_count'] ?> поста</p>   
+            </div>
+        </form>
+        <form class="photo-grid">
+            <?php foreach ($user_photos as $photo): ?>
+                <img class="photo-grid__photo" src="images\<?= $photo ?>" alt="фото пользователя">
+            <?php endforeach; ?>
+        </form>
+    </div>
 </body>
 </html>
