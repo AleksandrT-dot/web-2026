@@ -47,7 +47,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-bottom: 32px;
+    margin: 0 0 32px 0;
 }
 
 .auth__field {
@@ -66,6 +66,8 @@ body {
     line-height: 18px;
     letter-spacing: -0.15px;
     color: #222222;
+    margin: 0;
+    padding: 0;
 }
 
 .auth__password-wrapper {
@@ -81,6 +83,7 @@ body {
     font-family: 'Golos Text', sans-serif;
     font-size: 15px;
     color: #222222;
+    padding: 13px 12px;
 }
 
 .auth__input-email {
@@ -88,15 +91,14 @@ body {
 }
 
 .auth__input-password {
-    padding: 13px 12px;
-    padding-right: 45px;
+    padding: 13px 45px 13px 12px;
 }
 
 .auth__vision {
     position: absolute;
     right: 12px;
     top: 50%;
-    margin-top: -11px;
+    margin: -11px 0 0 0;
     cursor: pointer;
 }
 
@@ -111,7 +113,7 @@ body {
 
 .auth__icon-slash {
     height: 22px;
-    margin-top: -19px;
+    margin: -19px 0 0 0;
 }
 
 .auth__hint {
@@ -120,6 +122,8 @@ body {
     line-height: 16px;
     letter-spacing: -0.08px;
     color: #808080;
+    margin: 0;
+    padding: 0;
 }
 
 .auth__button {
