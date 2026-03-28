@@ -69,17 +69,7 @@ function plural($n, $one, $two, $five) {
     <meta charset="UTF-8">
 </head>
 <body>
-    <div class="sidebar">
-        <div class="sidebar__item-frame sidebar__item-frame-menu">
-            <img class="sidebar__item" src="item_menu.png" alt="menu">
-        </div>
-        <div class="sidebar__item-frame sidebar__item-frame-user">
-            <img class="sidebar__item" src="item_user.png" alt="user">
-        </div>
-        <div class="sidebar__item-frame sidebar__item-frame-plus">
-            <img class="sidebar__item" src="item_plus.png" alt="add">
-        </div>
-    </div>
+    <?php include 'sidebar.php'; ?>
     <div class="net-feed">
         <?php 
         foreach ($posts as $post) {
